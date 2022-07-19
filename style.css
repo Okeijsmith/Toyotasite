@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+
+a {
+    color: #fff;
+}
+
+
+.semi-header {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.text-area {
+    line-height: 1.7rem;
+}
+
+.logo {
+    width: 120px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 10;
+    left: 0;
+    z-index: 1;
+    background: black;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#navbar ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+#navbar ul li {
+    padding: 10px;
+}
+
+#navbar ul li a:hover{
+    color: red;
+}
+
+#navbar .items-01 {
+        padding: 1px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+}
+
+#showcase {
+    background: #333 url('./images/Screenshot_2021-06-01_at_11.46\ 1.png') no-repeat
+    center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase .alpha-text {
+    text-align: center;
+    font-size: 9rem;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.btn {
+   width: 220px;
+   padding: 1rem;
+   background: #fff;
+   border-radius: 10px;
+   text-align: center;
+   justify-content: center;
+   margin: auto;
+   cursor: pointer;
+   }
+   
+.btn a {
+    color: #000;
+}
+
+#models {
+    background: #000;
+    height: 100vh;
+    color: #fff;
+}
+
+.content-models {
+    padding: 4rem;
+}
+
+#models .sub-header {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 4rem;
+}
+
+.container-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_1 {
+    margin-left: 30px;
+}
+
+.image-1 {
+    width: 500px;
+}
+
+.container-wrap-2 {
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+}
+
+#specification {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 165rem;
+    left: 0;
+    color: #fff;
+}
+
+#specification .car {
+    margin-top: 30px;
+    width: 800px;
+}
+
+.subheader-9 {
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    color: #333;
+    padding-top: 10rem;
+}
+
+.image-cards {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20rem;
+}
+
+.card {
+    width: 150px;
+    margin: 0 80px;
+    
+}
+
+.card-1 {
+    width: 230px;
+    position: absolute;
+    top: 10px;
+}
+
+
+#bottom {
+    color: #fff;
+    position: absolute;
+    top: 3400px;
+    background-color: #333;
+    width: 100%;
+    padding: 5rem;
+}
+
+#bottom .content-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    border: #fff solid 1px;
+    margin: 10px auto;
+}
+
+.bottom-text {
+    text-align: center;
+}
+
+/* heading style for footer */
+
+#bottom h3{
+    margin: 2rem 0;
+}
+
+#productz {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+#productz .products ul {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50px;
+}
+
+#productz .products ul li {
+    padding: 15px;
+}
+#productz .products ul li a:hover {
+    color: red;
+}
+#productz .inquiry {
+    position: absolute;
+    left: 1370px;
+    top: 100px;
+}
+
+#productz .inquiry input {
+    padding: 10px;
+    border: none;
+    width: 300px;
+    border-radius: 5px;
+  
+}
+
+#productz .inquiry img{
+    width: 40px;
+    position: absolute;
+    left: 320px;
+    bottom: 0px;
+    
+}
+
+#container-101 {
+        padding: 3rem;
+        display: flex;
+        justify-content: space-around;
+}
+
+.card-container {
+    width: 300px;
+    height: 430px;
+    border: solid #fff 1px;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+
+}
+.steering_1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+.steering_2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 230px;
+    left: 460px;
+}
+.steering_3 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 230px;
+    left: 810px;
+}
+.steering_4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 230px;
+    left: 1150px;
+}
+.steering_5 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 230px;
+    left: 1480px;
+}
+
+
+.card-text-area {
+    background: #333;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 278px;
+    color: #fff;
+    padding: 1rem;
+    z-index: 0;
+}
+
+.card_stars {
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+}
+
+.text-center-card {
+    font-family: 'Poppins', sans-serif;
+}
+
+.button_card {
+    background: #fff;
+    width: 150px;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    margin-top: 3.50rem;
+    border-radius: 5px;
+
+}
+
+.button-wrapper {
+    display: flex;
+}
+.card-cart {
+    position: relative;
+    top: 60px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+#container-102 {
+    
+        padding: 3rem;
+        display: flex;
+        justify-content: space-around;
+}
+
+
+.steering_6 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 760px;
+    left: 120px;
+}
+
+
+.steering_7 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 760px;
+    left: 460px;
+}
+
+.steering_8 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 760px;
+    left: 800px;
+}
+
+.steering_9 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 760px;
+    left: 1140px;
+}
+
+.steering_10 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 760px;
+    left: 1480px;
+}
+
+
+#bottom-2 {
+    color: #fff;
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    padding: 5rem;
+}
+
+#bottom-2 .content-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bottom-2 h3{
+    margin: 2rem 0;
+}
+
+.product_dis{
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+#product-diplayer{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
